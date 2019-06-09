@@ -1,0 +1,12 @@
+<?php
+define("MY_BLOG",'/my_blog/');
+define("ROOT",$_SERVER['DOCUMENT_ROOT']."/my_blog");
+//define("INCLUDES",MY_BLOG.'/includes');
+define("IMAGES",MY_BLOG.'images');
+define("CSS",MY_BLOG.'css');
+define("JS",MY_BLOG.'js');
+define("ADMIN",MY_BLOG.'admin');
+//define("ADMIN_IMAGES",ADMIN."/images")
+define("ADMIN_CSS",ADMIN."/css");
+define("ADMIN_JS",ADMIN."/js");
+define("ADMIN_INCLUDES",ADMIN."/includes");

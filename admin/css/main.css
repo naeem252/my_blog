@@ -2,6 +2,35 @@
 .row{
     margin-right: 0;
 }
+.online{
+    animation: fade 1s infinite;
+}
+@keyframes fade {
+    0%{
+        opacity: .2;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.post_arr{
+    display: inline-block;
+    transition:0.4s;
+    perspective: 800px;
+}
+.post_arr2{
+    display: inline-block;
+    transition:0.4s;
+    perspective: 800px;
+}
+.post_arr3{
+    display: inline-block;
+    transition:0.4s;
+    perspective: 800px;
+}
 .admin_nav{
     position: fixed;
     height: 100vh;
